@@ -1,0 +1,44 @@
+{
+  "test_set_size": 52121,
+  "final_model": "LightGBM (stage-1 rank 2)",
+  "micro_f1": 0.7514,
+  "macro_f1": 0.7021,
+  "recall_grade1": 0.5445,
+  "recall_grade2": 0.8503,
+  "recall_grade3": 0.643,
+  "cv_micro_f1_full_train": 0.7438,
+  "cv_std": 0.0013,
+  "train_micro_f1": 0.7726,
+  "grade1_vs_grade3_confusions_pct": 0.33,
+  "majority_baseline_micro_f1": 0.5689,
+  "all_models": {
+    "Dummy (majority)": {
+      "micro_f1": 0.5689,
+      "macro_f1": 0.2417
+    },
+    "Logistic Regression": {
+      "micro_f1": 0.7392,
+      "macro_f1": 0.6763
+    },
+    "Decision Tree": {
+      "micro_f1": 0.7297,
+      "macro_f1": 0.6722
+    },
+    "Random Forest": {
+      "micro_f1": 0.7527,
+      "macro_f1": 0.6998
+    },
+    "XGBoost": {
+      "micro_f1": 0.7513,
+      "macro_f1": 0.7027
+    },
+    "LightGBM": {
+      "micro_f1": 0.7513,
+      "macro_f1": 0.7024
+    },
+    "LightGBM \u2013 tuned (final)": {
+      "micro_f1": 0.7514,
+      "macro_f1": 0.7021
+    }
+  }
+}
